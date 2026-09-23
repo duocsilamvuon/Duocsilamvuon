@@ -1,35 +1,13 @@
 [
   {
-    "id": "prod_1",
-    "name": "Dầu Gội Bồ Kết Cô Đặc (Dữ liệu mẫu)",
-    "category": "chăm sóc cá nhân",
-    "description": "Lựa chọn an lành cho mái tóc, giữ lại hương thơm tự nhiên và phục hồi hư tổn mà không dùng hóa chất mạnh.",
-    "image": "assets/images/dung/anh1.jpg",
-    "shopeeUrl": "https://shopee.vn/",
-    "note": "Mình đã dùng hơn 2 tháng và thấy tóc con mọc nhiều hơn.",
+    "id": "prod_insta360_go",
+    "name": "Camera Insta360 GO Ultra Bundle",
+    "category": "thiết bị quay chụp",
+    "description": "Mình đang dùng máy này để quay POV (góc nhìn thứ nhất) cho các vlog hằng ngày. Máy siêu nhỏ gọn, chống rung tốt và cực kỳ tiện lợi khi rảnh tay làm vườn hay nấu ăn.",
+    "image": "assets/images/products/insta360.png",
+    "shopeeUrl": "https://s.shopee.vn/50ZI67mRE1",
+    "note": "Rất đáng đầu tư nếu bạn thích quay phim một mình.",
     "featured": true,
-    "active": true
-  },
-  {
-    "id": "prod_2",
-    "name": "Bộ Dụng Cụ Trồng Cây Cơ Bản (Dữ liệu mẫu)",
-    "category": "làm vườn",
-    "description": "Nhỏ gọn, vừa vặn với tay cầm, lớp sơn chống gỉ tốt. Rất phù hợp cho các bạn mới tập tành trồng cây ở ban công.",
-    "image": "assets/images/dung/anhvuon3.jpg",
-    "shopeeUrl": "https://shopee.vn/",
-    "note": "",
-    "featured": true,
-    "active": true
-  },
-  {
-    "id": "prod_3",
-    "name": "Trà Hoa Cúc Mật Ong sấy lạnh (Dữ liệu mẫu)",
-    "category": "đồ dùng hằng ngày",
-    "description": "Một ly trà ấm áp cho buổi tối mùa đông ở Vân Hồ. Hoa cúc sấy giữ được nguyên bông và hương thơm tự nhiên.",
-    "image": "assets/images/dung/anhchill1.jpg",
-    "shopeeUrl": "https://shopee.vn/",
-    "note": "Rất hợp khi uống lúc đọc sách.",
-    "featured": false,
     "active": true
   }
 ]
