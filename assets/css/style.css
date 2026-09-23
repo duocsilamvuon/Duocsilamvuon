@@ -34,3 +34,9 @@
 .animate-float {
   animation: slow-float 6s ease-in-out infinite;
 }
+
+/* Global Smooth Transitions */
+a,
+button {
+  transition: all 0.3s ease-in-out !important;
+}
