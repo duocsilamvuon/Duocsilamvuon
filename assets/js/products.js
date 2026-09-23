@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
   if (!productsContainer || !filterContainer) return;
 
+  // Fixed categories
+  const FIXED_CATEGORIES = ["Tất cả", "Chăm sóc cá nhân", "Đồ dùng hàng ngày", "Khác"];
+
   // Fetch product data
   fetch('assets/data/products.json')
     .then(response => response.json())
@@ -18,12 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   function renderFilters(products) {
-    const categories = ["Tất cả", ...new Set(products.map(p => p.category))];
-    
     filterContainer.innerHTML = '';
-    categories.forEach(category => {
+    
+    // Always render the fixed categories
+    FIXED_CATEGORIES.forEach(category => {
       const btn = document.createElement("button");
-      // Style logic: if 'Tất cả' is selected by default
       const isAll = category === "Tất cả";
       
       btn.className = isAll 
@@ -46,7 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
         if (category === "Tất cả") {
           renderProducts(products);
         } else {
-          renderProducts(products.filter(p => p.category === category));
+          // Normalise category strings for comparison to be safe
+          const filtered = products.filter(p => p.category.toLowerCase() === category.toLowerCase());
+          renderProducts(filtered);
         }
       });
       
@@ -56,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function renderProducts(products) {
     if (products.length === 0) {
-      productsContainer.innerHTML = `<div class="col-span-full text-center py-10 glass-card rounded-2xl"><p class="text-on-surface-variant text-body-lg">Chưa có sản phẩm nào trong danh mục này.</p></div>`;
+      productsContainer.innerHTML = `<div class="col-span-full text-center py-10 glass-card rounded-2xl"><p class="text-on-surface-variant text-body-lg italic">Đợi mình update nha!</p></div>`;
       return;
     }
 
@@ -68,10 +72,11 @@ document.addEventListener("DOMContentLoaded", () => {
       
       const noteHtml = product.note ? `<p class="text-secondary text-body-sm italic mt-2">"${product.note}"</p>` : '';
       
+      // Update object-cover to object-contain and add white background for product images
       card.innerHTML = `
-        <a class="block aspect-square overflow-hidden" href="${product.shopeeUrl}" target="_blank" rel="noopener noreferrer sponsored">
+        <a class="block aspect-square overflow-hidden bg-white/70 backdrop-blur-sm p-4" href="${product.shopeeUrl}" target="_blank" rel="noopener noreferrer sponsored">
           <div
-            class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+            class="w-full h-full bg-contain bg-no-repeat bg-center transition-transform duration-500 group-hover:scale-110"
             style="background-image: url('${product.image}');"
             role="img" aria-label="${product.name}"
           ></div>
