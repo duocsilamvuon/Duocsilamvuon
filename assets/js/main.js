@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 1. Smooth Page Transition
   // Khởi tạo ban đầu để tránh chớp giật
   document.body.style.opacity = "0";
-  document.body.style.transition = "opacity 0.5s ease-in-out";
+  document.body.style.transition = "opacity 0.15s ease-in-out";
 
   // Sau khi DOM load xong, fade in từ từ
   setTimeout(() => {
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Chuyển trang sau khi mờ xong (500ms)
         setTimeout(() => {
           window.location.href = targetUrl;
-        }, 500);
+        }, 150);
       }
     });
   });
