@@ -1,0 +1,417 @@
+<!doctype html>
+<html class="light" lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="icon" type="image/png" href="logo.png" />
+
+    <title>Sản phẩm tin dùng | Dược sĩ làm vườn</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="assets/js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body
+    class="bg-background text-on-background antialiased min-h-screen flex flex-col"
+  >
+    <!-- TopNavBar -->
+    <nav
+      class="bg-surface/60 backdrop-blur-xl border-b border-white/50 shadow-sm shadow-primary/10 sticky top-0 z-50 w-full"
+    >
+      <div
+        class="flex justify-between items-center max-w-7xl mx-auto px-margin-desktop py-4"
+      >
+        <a
+          class="font-headline-lg text-headline-lg font-semibold text-primary"
+          href="gioithieu.html"
+          >Dược sĩ làm vườn</a
+        >
+        <div class="hidden md:flex items-center space-x-8">
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-transform duration-200 hover:scale-105"
+            href="gioithieu.html"
+            >Giới thiệu</a
+          >
+          <a
+            class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary transition-transform duration-200 hover:scale-105"
+            href="sanpham.html"
+            >Sản phẩm tin dùng</a
+          >
+          <a
+            class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-transform duration-200 hover:scale-105"
+            href="hoptac.html"
+            >Hợp tác</a
+          >
+        </div>
+        <a
+          class="bg-primary text-on-primary px-6 py-2 rounded-full font-label-lg text-label-lg hover:scale-105 transition-transform duration-200 active:scale-95"
+          href="hoptac.html"
+        >
+          Liên hệ
+        </a>
+      </div>
+    </nav>
+
+    <main class="flex-grow">
+      <!-- Hero Section -->
+      <section
+        class="relative pt-xl pb-lg px-margin-mobile md:px-margin-desktop overflow-hidden"
+      >
+        <div class="max-w-7xl mx-auto relative z-10 text-center">
+          <h1 class="font-headline-xl text-headline-xl mb-md text-gradient">
+            Lựa chọn cho tâm hồn &amp; khu vườn
+          </h1>
+          <p
+            class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto mb-lg"
+          >
+            Tổng hợp những sản phẩm chất lượng nhất đã được kiểm chứng bởi Dược
+            sĩ làm vườn, từ những tách trà thảo mộc thơm lành đến bộ dụng cụ
+            chăm sóc cây cỏ tỉ mỉ.
+          </p>
+        </div>
+      </section>
+
+      <!-- Product Filter Chips -->
+      <div
+        class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop mb-lg flex flex-wrap gap-sm justify-center"
+      >
+        <button
+          class="pill-shaped bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md shadow-lg shadow-primary/20"
+        >
+          Tất cả
+        </button>
+        <button
+          class="pill-shaped bg-surface-container text-on-surface-variant px-6 py-2 rounded-full font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors"
+        >
+          Trà thảo mộc
+        </button>
+        <button
+          class="pill-shaped bg-surface-container text-on-surface-variant px-6 py-2 rounded-full font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors"
+        >
+          Dụng cụ làm vườn
+        </button>
+        <button
+          class="pill-shaped bg-surface-container text-on-surface-variant px-6 py-2 rounded-full font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors"
+        >
+          Tinh dầu tự nhiên
+        </button>
+      </div>
+
+      <!-- Product Grid -->
+      <section
+        class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop pb-xl"
+      >
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+          <!-- Card 1: Trà -->
+          <div
+            class="group relative glass-card rounded-xl overflow-hidden flex flex-col transition-all duration-300"
+          >
+            <a class="block aspect-square overflow-hidden" href="#">
+              <div
+                class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="A macro shot of premium dried chamomile and lavender flowers in a glass jar, sunlight filtering through, soft avocado green tones, light-mode botanical aesthetic, minimalist composition."
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuAtGH-16PsAvD9wQmRfvow7SfuhdxZv8F--dTzq7Jfyy0DpTAq33HgB8_n_Hc9GN_CRk7YzTDvhuGvUpC13HekffAdd6zYWWq-P_-MHSLPO2n_HmrZvOMM38eazhFGh6zOFFcAQFvQTv7yil0ondHo1hhEJyewm4e6PSy-aHJ_D2WPqATKd8EmlaJlvsgKAVfea97X1rYDoBSFSSo6mNIYlitS7GaRIPQyiftcb41axtlQumzoC7MnhVg&quot;);
+                "
+              ></div>
+            </a>
+            <div class="p-md flex flex-col flex-grow">
+              <span
+                class="font-label-md text-label-md text-primary mb-xs uppercase tracking-widest"
+                >Trà thảo mộc</span
+              >
+              <h3
+                class="font-headline-lg text-2xl font-bold text-on-surface mb-sm"
+              >
+                Trà Hoa Cúc &amp; Oải Hương Gợi Cảm
+              </h3>
+              <p
+                class="font-body-sm text-body-sm text-on-surface-variant mb-md flex-grow"
+              >
+                Sự kết hợp tinh tế giúp thư giãn tinh thần sau ngày dài làm
+                việc, mang lại giấc ngủ tự nhiên và sâu lắng.
+              </p>
+              <a
+                class="w-full text-center py-3 border border-primary text-primary rounded-full font-label-lg text-label-lg hover:bg-primary hover:text-on-primary transition-all duration-300"
+                href="#"
+              >
+                Xem review chi tiết
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: Dụng cụ -->
+          <div
+            class="group relative glass-card rounded-xl overflow-hidden flex flex-col transition-all duration-300"
+          >
+            <a class="block aspect-square overflow-hidden" href="#">
+              <div
+                class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="A set of elegant, vintage-style brass gardening tools including a small trowel and fork, resting on a white marble surface next to a small potted herb. Soft daylight, clean bright background, organic aesthetic."
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDHZGU70xa0j0CxWf6DN2YUora_zq7vpEZpd7OfSOxdABvuzQytpd5cf4Gd5osxQww1SY3SrVTSuGpyEXRGvtljhEh85606LDWZH3C62ZQZ4HDf9rqpmup8WLLx-bLLl1ksBE03Rf5GdA7H0Qp50dfyWOQIl_FqIFKp9s4VXMr1YAPBiJf76GEYmekRHTESSXeBgUiXC1wR367tPUh_BoW6jM8CkWcIOATiz1cL3oTmZXIH7qXbrKHJCw&quot;);
+                "
+              ></div>
+            </a>
+            <div class="p-md flex flex-col flex-grow">
+              <span
+                class="font-label-md text-label-md text-primary mb-xs uppercase tracking-widest"
+                >Dụng cụ làm vườn</span
+              >
+              <h3
+                class="font-headline-lg text-2xl font-bold text-on-surface mb-sm"
+              >
+                Bộ Dụng Cụ Đồng Cổ Điển
+              </h3>
+              <p
+                class="font-body-sm text-body-sm text-on-surface-variant mb-md flex-grow"
+              >
+                Thiết kế công thái học từ chất liệu đồng cao cấp, không chỉ bền
+                bỉ mà còn là điểm nhấn thẩm mỹ cho khu vườn nhỏ của bạn.
+              </p>
+              <a
+                class="w-full text-center py-3 border border-primary text-primary rounded-full font-label-lg text-label-lg hover:bg-primary hover:text-on-primary transition-all duration-300"
+                href="#"
+              >
+                Xem review chi tiết
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: Tinh dầu -->
+          <div
+            class="group relative glass-card rounded-xl overflow-hidden flex flex-col transition-all duration-300"
+          >
+            <a class="block aspect-square overflow-hidden" href="#">
+              <div
+                class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="A collection of amber glass essential oil bottles on a wooden tray, surrounded by fresh eucalyptus leaves and small white flowers. Bright, airy atmospheric lighting, focused on organic purity and freshness."
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuACaFguz1oqmk-qk0KMvB-hT8ue6ZxNW75sKK4niHDlSaXoroZ6SEMhNzCPEt6vUcU26lEqudTapiTdfmRqcqZwtAooHKy-ybYpNUl7ZLVG65jA7xh-7FwPZTSdExPOleeh4eU37yDmrZHiGo3c2y1MpP-c4Wr3yDUjjXDDsyKAmIpO7ioS4nY3JgPi8BaZFhcP4iyE2UBklfdhHLtdZU5Wx5jIRQQAH75tLiYzBY9XE0-ISbxmscuHGw&quot;);
+                "
+              ></div>
+            </a>
+            <div class="p-md flex flex-col flex-grow">
+              <span
+                class="font-label-md text-label-md text-primary mb-xs uppercase tracking-widest"
+                >Tinh dầu tự nhiên</span
+              >
+              <h3
+                class="font-headline-lg text-2xl font-bold text-on-surface mb-sm"
+              >
+                Tinh Dầu Bưởi &amp; Bạc Hà
+              </h3>
+              <p
+                class="font-body-sm text-body-sm text-on-surface-variant mb-md flex-grow"
+              >
+                Hương thơm thanh khiết giúp khơi gợi cảm hứng sáng tạo và làm
+                sạch không gian sống một cách tự nhiên nhất.
+              </p>
+              <a
+                class="w-full text-center py-3 border border-primary text-primary rounded-full font-label-lg text-label-lg hover:bg-primary hover:text-on-primary transition-all duration-300"
+                href="#"
+              >
+                Xem review chi tiết
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: Trà -->
+          <div
+            class="group relative glass-card rounded-xl overflow-hidden flex flex-col transition-all duration-300"
+          >
+            <a class="block aspect-square overflow-hidden" href="#">
+              <div
+                class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="Detailed view of a porcelain teapot pouring clear amber tea into a delicate cup, loose leaf tea scattered around on a light linen tablecloth. Soft morning sun, botanical vibes, high-end organic aesthetic."
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuA_V4b86aX0IWhdkHNmR1-ustq4cLYOXe317wOy40twIeb4pHCVgO9x-jBAm7UV5sbHdmPUdFj7c7gMqVS7lXQ32oapVIp2N1GKQREVEDfoIYX36NrB3GpmRis0XNaNuBXXpUOSi6R8o2nC7J8kjxl3Utt0hPErb-yzqMKTH2L-f8LLvm4YpDljZKq-E-B9JtwB9r_OAfp0ZXpyo8Q566qphSPo4GZqO6gBYw2k3Aw51C4kvb9YdwLm7g&quot;);
+                "
+              ></div>
+            </a>
+            <div class="p-md flex flex-col flex-grow">
+              <span
+                class="font-label-md text-label-md text-primary mb-xs uppercase tracking-widest"
+                >Trà thảo mộc</span
+              >
+              <h3
+                class="font-headline-lg text-2xl font-bold text-on-surface mb-sm"
+              >
+                Trà Thiết Quan Âm Hữu Cơ
+              </h3>
+              <p
+                class="font-body-sm text-body-sm text-on-surface-variant mb-md flex-grow"
+              >
+                Lá trà được tuyển chọn từ những vùng núi cao, mang hương vị
+                thanh tao và hậu vị ngọt lành kéo dài.
+              </p>
+              <a
+                class="w-full text-center py-3 border border-primary text-primary rounded-full font-label-lg text-label-lg hover:bg-primary hover:text-on-primary transition-all duration-300"
+                href="#"
+              >
+                Xem review chi tiết
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 5: Phụ kiện -->
+          <div
+            class="group relative glass-card rounded-xl overflow-hidden flex flex-col transition-all duration-300"
+          >
+            <a class="block aspect-square overflow-hidden" href="#">
+              <div
+                class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="Minimalist ceramic spray bottle for plants, matte white finish, sitting on a wooden shelf next to a monstera plant. Elegant and functional home decor, soft shadows, airy environment."
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCt4ganDZQ5vAa4FUcjMnQgsnIgRL_7SnRDivcIfjf1t0wYZBdYObb4KUEMcPKAMViBZ3S1hZ-GPrT3DI8C3Xicy-YjQRPCZOOcGyK6S_pblivhhMCLzObbMVFzF26GTlL87a05T1xtNOsbJT-EJ8tC6VyoDJ36em_DpT4d25OrzEZeEAP8Qanh3OWP8vMminVQKMyNqB69OY9gVleWLyYHG2jl7DYpyb51_4CDas0NuwAXvEX5NEE4Wg&quot;);
+                "
+              ></div>
+            </a>
+            <div class="p-md flex flex-col flex-grow">
+              <span
+                class="font-label-md text-label-md text-primary mb-xs uppercase tracking-widest"
+                >Dụng cụ làm vườn</span
+              >
+              <h3
+                class="font-headline-lg text-2xl font-bold text-on-surface mb-sm"
+              >
+                Bình Xịt Gốm Phun Sương
+              </h3>
+              <p
+                class="font-body-sm text-body-sm text-on-surface-variant mb-md flex-grow"
+              >
+                Phụ kiện không thể thiếu cho những người yêu thích chăm sóc các
+                loại cây mọng nước và kiểng lá trong nhà.
+              </p>
+              <a
+                class="w-full text-center py-3 border border-primary text-primary rounded-full font-label-lg text-label-lg hover:bg-primary hover:text-on-primary transition-all duration-300"
+                href="#"
+              >
+                Xem review chi tiết
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 6: Tinh dầu -->
+          <div
+            class="group relative glass-card rounded-xl overflow-hidden flex flex-col transition-all duration-300"
+          >
+            <a class="block aspect-square overflow-hidden" href="#">
+              <div
+                class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                data-alt="A modern glass ultrasonic diffuser emitting a fine mist, placed in a minimalist living room with plenty of green plants. Soft ambient lighting, serene atmosphere, focus on wellness lifestyle."
+                style="
+                  background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuA9uGo2CZsZg8QhwqjE11kh-xC_sTAle_ISUXSoSdJsBAIQWimNX6W8xnS685K9AcoUEEZrquxIOlQSATNV6Aw8Ru3cH3M5dLS8z2UXXFFafOiF0a86UtSnVaQbogwWk4PRwk1UbVs9thwBanZDk5WUYh8wBD-yBIyjlckq_3_5aba0yauFKPWua7pYXpBO8iVm_JllqPDwyS8LDrVGltyrnIhitgi8W-sZJ3-1flBsaVJSr5uNGxx-uw&quot;);
+                "
+              ></div>
+            </a>
+            <div class="p-md flex flex-col flex-grow">
+              <span
+                class="font-label-md text-label-md text-primary mb-xs uppercase tracking-widest"
+                >Tinh dầu tự nhiên</span
+              >
+              <h3
+                class="font-headline-lg text-2xl font-bold text-on-surface mb-sm"
+              >
+                Máy Khuếch Tán Tinh Dầu Cao Cấp
+              </h3>
+              <p
+                class="font-body-sm text-body-sm text-on-surface-variant mb-md flex-grow"
+              >
+                Công nghệ sóng siêu âm giúp giữ trọn vẹn đặc tính trị liệu của
+                tinh dầu, tạo ra làn sương mịn mát lành.
+              </p>
+              <a
+                class="w-full text-center py-3 border border-primary text-primary rounded-full font-label-lg text-label-lg hover:bg-primary hover:text-on-primary transition-all duration-300"
+                href="#"
+              >
+                Xem review chi tiết
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter Section -->
+      <section
+        class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop mb-xl"
+      >
+        <div
+          class="glass-card rounded-3xl p-lg md:p-xl flex flex-col md:flex-row items-center justify-between gap-lg"
+        >
+          <div class="text-center md:text-left max-w-xl">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mb-sm">
+              Nhận thông báo sản phẩm mới
+            </h2>
+            <p class="font-body-md text-body-md text-on-surface-variant">
+              Đăng ký để không bỏ lỡ những review chi tiết về các sản phẩm làm
+              vườn và phong cách sống xanh.
+            </p>
+          </div>
+          <form class="w-full md:w-auto flex flex-col sm:flex-row gap-sm">
+            <input
+              class="px-6 py-3 rounded-full border-outline-variant bg-white/50 focus:ring-primary focus:border-primary border min-w-[300px] font-body-md"
+              placeholder="Email của bạn..."
+              type="email"
+            />
+            <button
+              class="bg-primary text-on-primary px-8 py-3 rounded-full font-label-lg text-label-lg hover:scale-105 transition-transform"
+              type="submit"
+            >
+              Đăng ký ngay
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="full-width bg-surface-container-low dark:bg-surface-container-highest border-t border-surface-variant"
+    >
+      <div
+        class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-lg max-w-7xl mx-auto font-body-sm text-body-sm"
+      >
+        <div class="mb-md md:mb-0">
+          <h2 class="font-headline-lg text-headline-lg text-primary mb-xs">
+            Dược sĩ làm vườn
+          </h2>
+          <p class="text-on-surface-variant">
+            Chia sẻ những điều mình đang sống
+          </p>
+        </div>
+        <div class="flex flex-col items-center md:items-end gap-sm">
+          <div class="flex gap-md mb-xs">
+            <a
+              class="text-on-surface-variant hover:text-secondary transition-colors duration-300"
+              href="#"
+              >Facebook</a
+            >
+            <a
+              class="text-on-surface-variant hover:text-secondary transition-colors duration-300"
+              href="https://www.tiktok.com/@www.tikok.duocsilamvuon"
+              >TikTok</a
+            >
+            <a
+              class="text-on-surface-variant hover:text-secondary transition-colors duration-300"
+              href="https://www.youtube.com/@Duocsilamvuon"
+              >YouTube</a
+            >
+          </div>
+          <p class="text-on-surface-variant opacity-70">
+            © 2026 Dược sĩ làm vườn. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
