@@ -131,83 +131,101 @@
         <div
           class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-md h-auto md:h-[600px]"
         >
-          <!-- Item 1: Daily Vlog -->
+          <!-- Card 1: Văn hóa & trải nghiệm địa phương -->
           <div
             class="md:col-span-2 glass-card rounded-3xl p-8 flex flex-col justify-end relative overflow-hidden group"
           >
             <div class="absolute inset-0 -z-10">
               <img
-                class="w-full h-full object-cover opacity-30 group-hover:scale-110 transition-transform duration-700"
-                data-alt="A peaceful atmospheric image of a morning garden scene with a watering can and wooden garden tools resting on a rustic table. The lighting is warm and golden, suggesting a fresh start to the day. The color palette emphasizes rich avocado greens and earthy tones, maintaining a modern glassmorphism feel with soft blurred edges."
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuohbnTxigXmVDnjyLZ7KbDFp7a2Zth8i11b4UMUrF5T7GCxYbXquvXZA0yxrjmIfh8y5jd9mbwOYKPzoght3i2_XIqNGHta739tLdCX7FhSfGbQrOWE77Bmq3SE7NT24RF6FjirylucLctAoFmvezWcJDwdZTaV2T254-BEbuCWygZUZ1CTW0wjdNyBWz652rQeHEY5zFcpkCPc5PNyvt7QhvTRUGBDRyIto1SXp5Lg1_wG97JSxNKA"
+                class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-700"
+                loading="lazy"
+                alt="Văn hóa và trải nghiệm địa phương tại Vân Hồ"
+                src="assets/images/dung/anhdaidien.JPG"
               />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-surface-dim/90 via-surface-container-low/40 to-transparent"
+              ></div>
             </div>
-            <div class="flex items-center gap-4 mb-4">
-              <span
-                class="material-symbols-outlined text-primary p-3 bg-white/50 rounded-xl"
-                >videocam</span
+            <div class="relative z-10">
+              <div class="flex items-center gap-4 mb-4">
+                <span
+                  class="material-symbols-outlined text-primary p-3 bg-white/70 backdrop-blur-md rounded-xl"
+                  >explore</span
+                >
+                <h3
+                  class="font-headline-lg text-2xl text-primary font-bold shadow-white drop-shadow-sm"
+                >
+                  Văn hóa & trải nghiệm địa phương
+                </h3>
+              </div>
+              <p
+                class="text-on-surface-variant font-medium bg-white/80 p-4 rounded-xl backdrop-blur-md shadow-sm"
               >
-              <h3 class="font-headline-lg text-2xl text-primary">Daily Vlog</h3>
+                Mình ghi lại những phiên chợ, món ăn, con người và những điều
+                thú vị gặp trên đường đi ở Vân Hồ và những nơi mình ghé qua.
+              </p>
             </div>
-            <p class="text-on-surface-variant">
-              Những thước phim mộc mạc về cuộc sống làm vườn hằng ngày, nơi mình
-              chia sẻ hơi thở của đất trời qua ống kính.
-            </p>
           </div>
-          <!-- Item 2: Nhật ký chăm cây -->
+          <!-- Card 2: Chuyện thường ngày -->
           <div
             class="glass-card rounded-3xl p-8 flex flex-col gap-4 border-primary/10"
           >
             <span class="material-symbols-outlined text-primary text-4xl"
-              >book</span
+              >coffee</span
             >
-            <h3 class="font-bold text-xl text-primary">Nhật ký chăm cây</h3>
+            <h3 class="font-bold text-xl text-primary">Chuyện thường ngày</h3>
             <p class="text-body-sm text-on-surface-variant">
-              Lưu lại quá trình lớn khôn của từng mầm xanh, từ khi nảy mầm đến
-              lúc thu hoạch.
+              Có những ngày chẳng có sự kiện gì lớn, chỉ là đi đây đó, gặp một
+              người mới hoặc kể lại một chuyện nhỏ mình thấy vui.
             </p>
           </div>
-          <!-- Item 3: Dinh dưỡng & Sống xanh -->
+          <!-- Card 3: Góc nhìn của một dược sĩ -->
           <div
             class="glass-card rounded-3xl p-8 flex flex-col gap-4 border-primary/10"
           >
             <span class="material-symbols-outlined text-primary text-4xl"
-              >nutrition</span
+              >medical_services</span
             >
             <h3 class="font-bold text-xl text-primary">
-              Dinh dưỡng &amp; Lối sống
+              Góc nhìn của một dược sĩ
             </h3>
             <p class="text-body-sm text-on-surface-variant">
-              Góc nhìn về cách thực phẩm sạch từ vườn tác động tích cực đến sức
-              khỏe và tinh thần.
+              Thỉnh thoảng mình chia sẻ những điều gần gũi về chăm sóc bản thân
+              và cuộc sống, từ góc nhìn công việc của mình.
             </p>
           </div>
-          <!-- Item 4: Thành công & Thất bại -->
+          <!-- Card 4: Chuyện ở vườn -->
           <div
-            class="md:col-span-2 glass-card rounded-3xl p-8 flex items-center gap-lg"
+            class="md:col-span-2 glass-card rounded-3xl p-8 flex items-center gap-lg relative overflow-hidden group"
           >
-            <div
-              class="hidden sm:block w-1/3 aspect-video rounded-2xl overflow-hidden shadow-inner"
-            >
+            <div class="absolute inset-0 -z-10 hidden sm:block">
               <img
-                class="w-full h-full object-cover"
-                data-alt="Close-up macro photography of a small green sprout emerging from rich dark soil, with soft out-of-focus garden background. The image represents resilience and the cycle of growth. High-key lighting, soft shadows, and a clean organic aesthetic consistent with a wellness lifestyle brand."
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbMlDsxwUgLS72CGNwcMmqzMAVynFac2tZtSy0Rg87Hxy3xxaOZrX7iEY9mpZkGlD91bkr_slbCQ8ah52DjMrQ1j4qzL1A86vSemOgw9km_RnGgvxCq8xGREHox3PbPDTvqqfNXz5l-YUkX8DkNXOSzrQHuLJhObdsnxK9lWn3yjVw5CKVx0CAM6Wcx0DC1zouH3Aa4taOUGJjYVq8_sTa-ld-pYHtQp6HQ3YG4pE2XmIDhapbF-DcGQ"
+                class="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700"
+                loading="lazy"
+                alt="Chuyện ở vườn"
+                src="assets/images/dung/anhvuon2.jpg"
               />
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-surface-dim/95 via-surface-container/70 to-transparent"
+              ></div>
             </div>
-            <div class="flex-1">
-              <h3 class="font-bold text-xl text-primary mb-2">
-                Trải nghiệm thực tế
-              </h3>
-              <p class="text-body-sm text-on-surface-variant">
-                Không chỉ có những mùa màng bội thu, mình kể cả về những lần
-                thất bại, sâu bệnh. Vì đó mới là làm vườn thực thụ.
+            <div
+              class="flex-1 relative z-10 bg-white/60 sm:bg-transparent p-4 sm:p-0 rounded-2xl sm:rounded-none backdrop-blur-md sm:backdrop-blur-none"
+            >
+              <div class="flex items-center gap-3 mb-2">
+                <span class="material-symbols-outlined text-primary sm:hidden"
+                  >eco</span
+                >
+                <h3 class="font-bold text-xl text-primary">Chuyện ở vườn</h3>
+              </div>
+              <p class="text-body-sm text-on-surface-variant font-medium">
+                Mình vẫn dành thời gian cho khu vườn, ghi lại cả những lần cây
+                lớn tốt lẫn những việc chưa được như ý.
               </p>
             </div>
           </div>
         </div>
       </section>
-
       <!-- Values Section -->
       <section class="bg-surface-container-low/50 py-xl mt-xl">
         <div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop">
