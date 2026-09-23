@@ -9,8 +9,8 @@
   background: rgba(228, 241, 215, 0.4);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1.5px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 32px 0 rgba(148, 177, 111, 0.1);
+  border: 1.5px solid rgba(76, 102, 45, 0.2);
+  box-shadow: 0 4px 20px 0 rgba(76, 102, 45, 0.08);
 }
 .botanical-blur {
   filter: blur(80px);
