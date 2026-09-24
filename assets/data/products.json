@@ -9,5 +9,27 @@
     "note": "Rất đáng đầu tư nếu bạn thích quay phim một mình.",
     "featured": true,
     "active": true
+  },
+  {
+    "id": "prod_gochek_ss100",
+    "name": "Gậy Chụp Ảnh Tripod GoChek SS100",
+    "category": "Khác",
+    "description": "Gậy chụp ảnh kết hợp tripod siêu tiện lợi, cứng cáp giúp mình dễ dàng tự quay phim, chụp ảnh mọi lúc mọi nơi.",
+    "image": "assets/images/products/gochek_ss100.png",
+    "shopeeUrl": "https://s.shopee.vn/2BDPZEgXKE",
+    "note": "Phụ kiện không thể thiếu cho các buổi quay chụp cá nhân.",
+    "featured": true,
+    "active": true
+  },
+  {
+    "id": "prod_gochek_ultra_s24",
+    "name": "Micro thu âm không dây GoChek Ultra S24",
+    "category": "Khác",
+    "description": "Micro thu âm không dây tiện lợi, giúp mình cải thiện chất lượng âm thanh cho các video.",
+    "image": "assets/images/products/gochek_ultra_s24.png",
+    "shopeeUrl": "https://s.shopee.vn/9zwGTUtg7U",
+    "note": "Giúp âm thanh video to rõ và chuyên nghiệp hơn.",
+    "featured": true,
+    "active": true
   }
 ]
